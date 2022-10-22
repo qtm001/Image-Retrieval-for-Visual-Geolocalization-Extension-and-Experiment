@@ -5,7 +5,7 @@ import argparse
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Benchmarking Visual Geolocalization",
+    parser = argparse.ArgumentParser(description=" ",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     # Training parameters
     parser.add_argument("--train_batch_size", type=int, default=4,
